@@ -131,7 +131,7 @@ querystring-parser==1.2.4
 requests==2.28.1
 rich==13.3.1
 rsa==4.9
-scikit-learn==1.2.2
+scikit-learn
 scipy==1.10.1
 seaborn==0.12.2
 semver==2.13.0
