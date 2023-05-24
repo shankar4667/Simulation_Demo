@@ -101,8 +101,8 @@ avg_steam_pressure = 5.5
 st.title("Loss of Drying Prediction")
 
 # Upload manufacturing image
-image = Image.open(r"C:\Users\Harshita.Saxena\Downloads\manufacturing_img.jpeg")
-st.image(image, use_column_width=True)
+# image = Image.open(r"C:\Users\Harshita.Saxena\Downloads\manufacturing_img.jpeg")
+# st.image(image, use_column_width=True)
 
 # Display subheading for external temperature
 st.subheader("External Parameters")
