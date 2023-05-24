@@ -5,8 +5,11 @@
 
 
 import numpy as np
+import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
+import statsmodels.api as sm
+import streamlit as st
 
 # Generate random sample data for the variables
 np.random.seed(42)  # For reproducibility
@@ -43,10 +46,8 @@ equation = "Moisture Content = {:.5f} + ({:.5f} * Air Velocity) + ({:.5f} * Stea
 )
 print("Predicted Equation:\n", equation)
 
-import numpy as np
-import pandas as pd
-import statsmodels.api as sm
-from sklearn.model_selection import train_test_split
+
+
 
 # Generate random sample data for the variables
 np.random.seed(42)  # For reproducibility
@@ -83,11 +84,8 @@ results = model.fit()
 # Print the summary report
 print(results.summary())
 
-import numpy as np
-import pandas as pd
-import statsmodels.api as sm
-import streamlit as st
-from PIL import Image
+
+# from PIL import Image
 
 
 # Load the trained linear regression model coefficients and intercept
